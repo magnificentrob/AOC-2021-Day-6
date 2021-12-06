@@ -1,6 +1,6 @@
 import csv
 lanternfish = []
-with open ('test.txt', 'r') as file:
+with open ('input.txt', 'r') as file:
 	reader = csv.reader(file)
 	for row in reader:
 		for i in row:
@@ -15,4 +15,5 @@ for x in range(0,80):
 			lanternfish.append(8)
 		else:
 			lanternfish[i] -= 1
-	print(len(lanternfish))
+	
+print(len(lanternfish))
