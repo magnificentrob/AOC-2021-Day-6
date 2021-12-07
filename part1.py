@@ -6,8 +6,6 @@ with open ('input.txt', 'r') as file:
 		for i in row:
 			lanternfish.append(int(i))
 
-numoffish = (len(lanternfish))
-
 for x in range(0,80):
 	for i in range(len(lanternfish)):
 		if lanternfish[i] == 0:
